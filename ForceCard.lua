@@ -108,7 +108,7 @@ function newForceCardButton(text, fn)
 end
 
 function ForceCards()
-  card = 243--love.math.random(389)
+  card = love.math.random(389)
   local textCard = nil
   local fonctionCard = nil
   if 0 >= card and card <= 1 then
